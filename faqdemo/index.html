@@ -93,11 +93,10 @@
     </body>
     <script type="module">
         import * as require from 'https://requirejs.org/docs/release/2.3.5/minified/require.js';
-        
-        function submitData() {
 
         var fs = require('node:fs');
-
+        
+        function submitData() {
         // Data which will be appended to the file.
         let newData = "\n" + document.getElementById("inputQuestion").value;
 
