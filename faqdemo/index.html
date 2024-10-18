@@ -101,7 +101,7 @@
         let newData = "\n" + document.getElementById("inputQuestion").value;
 
         // Append data to 'Hello.txt' .
-        fs.appendFile('storeduserdata.txt', newData, (err) => {
+        fsExtra.appendFile('storeduserdata.txt', newData, (err) => {
 
         // In case of a error throw err.
         if (err) throw err;
