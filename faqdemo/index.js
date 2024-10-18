@@ -1,4 +1,4 @@
-import * as fs from 'https://esm.sh/v135/node_fs.js';
+import fsExtra from 'https://cdn.jsdelivr.net/npm/fs-extra@11.2.0/+esm
 
 export {
   fs
